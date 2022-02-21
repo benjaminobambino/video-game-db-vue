@@ -1,0 +1,189 @@
+header {
+  background-color: #212121;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 3em;
+}
+
+header nav a {
+  margin: 0 1em;
+}
+
+input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  padding: 0.5em 0.2em;
+  width: auto;
+  transition: all 0.2s;
+  font-size: 1.3rem;
+  color: #eee;
+}
+
+input:active,
+input:focus {
+  outline: none;
+
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.2s;
+}
+
+input:active::placeholder,
+input:focus::placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+select {
+  outline: none;
+}
+
+main {
+  padding: 2em 0;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 80%;
+  margin: 0 1em;
+}
+
+button, select {
+  padding: 0.2em 1em;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.card {
+  max-width: 300px;
+  max-height: 380px;
+  border-radius: 4px;
+  background-color: #1b1b1b;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  opacity: 0.8;
+}
+
+.card .image-wrapper {
+  width: auto;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+}
+
+.card .info-wrapper {
+  padding: 1em;
+}
+.container-grid {
+  padding: 2em 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 320px);
+  grid-gap: 1em;
+  justify-content: center;
+}
+.genres {
+  width: 100%;
+}
+.genres h2,
+.search h2 {
+  text-align: center;
+}
+
+.game-content .image-container {
+  width: 85vw;
+  margin: auto;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1em 0;
+}
+
+.game-content .buttons {
+  margin: 2vh auto;
+  text-align: center;
+}
+
+.game-content h1, h3 {
+  text-align: center;
+}
+
+.game-content a {
+  font-weight: bold;
+}
+
+.details-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container div {
+  margin: auto;
+  width: 90%;
+}
+
+.image-container img {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.details {
+  width: 80%;
+  margin: auto;
+}
+
+.flex-row {
+  display: flex;
+}
+.space {
+  justify-content: space-between;
+}
+
+.dropdown-menu label {
+  font-size: large;
+}
+
+select {
+  margin-top: 1vh;
+}
+
+.view-games h1, .dropdown-menu {
+  text-align: center;
+}
+
+.clickable:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating {
+  text-align: center;
+}
+
+.about h1 {
+  text-align: center;
+}
+
+.about {
+  margin: auto 10vw;
+}

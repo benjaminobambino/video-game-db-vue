@@ -30,6 +30,7 @@
 ![Game Details](screenshots/game-select.png)
 ***
 ### ***Future Updates***
+- [ ] Move API calls into backend
 - [ ] Add app title to header
 - [ ] Add pagination for more games
 - [ ] Add subreddit posts to game details
